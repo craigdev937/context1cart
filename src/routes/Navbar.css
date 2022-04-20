@@ -1,0 +1,32 @@
+.Nav-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: #5e5a5a;
+}
+
+.Nav-wrapper > li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.Nav-wrapper > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Cart-nav-link {
+    position: relative;
+}
+
+.Cart-nav-link span {
+    position: absolute;
+    top: -10px;
+    right: 5px;
+}
+
+
+
+
