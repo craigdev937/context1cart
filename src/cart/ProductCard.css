@@ -1,0 +1,40 @@
+.ProductCard-wrapper {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #808080;
+}
+
+.ProductCard-image {
+    object-fit: cover;
+    flex-shrink: 1;
+    width: 100%;
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+.ProductCard-category,
+.ProductCard-title,
+.ProductCard-rating,
+.ProductCard-price {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.ProductCard-title {
+    width: 95%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ProductCard-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #ffa430;
+    border: no;
+}
+
+
+
+

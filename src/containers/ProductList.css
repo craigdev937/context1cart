@@ -1,0 +1,17 @@
+.Products-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    width: 80%;
+    margin: 70px auto 0;
+}
+
+.Loading {
+    display: block;
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
